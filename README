@@ -1,0 +1,3 @@
+MySQL2PDO Library
+
+Converts code using the deprecated "mysql_" extension into the more versatile PDO. The user sets the file or directory they want to convert and the app does the rest.  User can set the converter to use either "OOP" or "Procedural" style depending on their taste.  Please feel free to contribute! Thanks!
