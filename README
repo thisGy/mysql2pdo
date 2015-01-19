@@ -1,3 +1,22 @@
 MySQL2PDO Library
 
 Converts code using the deprecated "mysql_" extension into the more versatile PDO. The user sets the file or directory they want to convert and the app does the rest.  User can set the converter to use either "OOP" or "Procedural" style depending on their taste.  Please feel free to contribute! Thanks!
+
+How To:
+
+
+# Instantiate the MySQL2PDO Object:
+
+	$MySQL2PDO = new MySQL2PDO;
+
+#Set the path of the PDO configuration file.
+
+	$MySQL2PDO->setConfigPath('/some/path/here');
+
+#Procedural Style? OOP?  Up to you!
+
+	$MySQL2PDO->setStyle('Procedural');
+				or
+	$MySQL2PDO->setStyle('OOP');
+
+# Execute!			
